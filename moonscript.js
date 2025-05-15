@@ -14,5 +14,6 @@ function getFortune(){
     const randomIndex = Math.floor(Math.random() * fortunes.length);
     const randomFortune = fortunes[randomIndex];
 
+    document.getElementById("fortuneArea").textContent=randomFortune;
     alert(randomFortune);
 }
